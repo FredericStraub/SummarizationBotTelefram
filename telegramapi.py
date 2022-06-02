@@ -8,10 +8,6 @@ from transformers import BartTokenizer, BartForConditionalGeneration
 import torch
 
 
-
-# with open("telebot/credentials.py","r") as f:
-#     TOKEN= f.read()
-
 def start(update,context):
     update.message.reply_text("hello")
 
